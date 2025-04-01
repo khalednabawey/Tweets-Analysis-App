@@ -1,0 +1,8 @@
+fastapi==0.112.0
+uvicorn==0.29.0
+pydantic==2.8.2
+nltk==3.8.1
+emoji==2.11.0
+textblob==0.18.0
+tensorflow==2.15.0
+numpy==1.26.4
