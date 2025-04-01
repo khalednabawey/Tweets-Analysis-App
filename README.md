@@ -1,5 +1,7 @@
 # Twitter Sentiment Analysis Project
 
+![Sentiment Analysis Demo](src/Sentiment-UI.png)
+
 A real-time sentiment analysis tool that combines deep learning and natural language processing to analyze the emotional tone of text input. The project uses a hybrid approach combining VADER sentiment analysis with a custom deep learning model for more accurate results.
 
 ## Features
