@@ -7,10 +7,22 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependencies
+/node_modules
+/tenv
+/venv
+
+# Build outputs
+/dist
+/dist-ssr
 *.local
+
+# Model files
+/server/models/
+server/models/full_model.h5
+server/models/tokenizer.pkl
+/server/models/*.h5
+/server/models/*.pkl
 
 # Editor directories and files
 .vscode/*
@@ -23,21 +35,7 @@ dist-ssr
 *.sln
 *.sw?
 
-# Python bytecode
+# Python
 __pycache__/
-*.pyc
-
-# Virtual environment
-venv/
-tenv/
-
-# Model and Tokenizer files (they may be too large for GitHub)
-server/models/full_model.h5
-server/models/tokenizer.pkl
-
-# Log files
-*.log
-
-# Other IDE-related files (e.g., PyCharm, VSCode)
-.idea/
-.vscode/
+*.py[cod]
+*$py.class
