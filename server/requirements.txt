@@ -3,3 +3,10 @@ uvicorn==0.27.1
 textblob==0.17.1
 pydantic==2.6.3
 vaderSentiment==3.3.2
+tensorflow==2.18.1
+requests==2.31.0 
+beautifulsoup4==4.12.3
+numpy>=1.22.0
+nltk>=3.8.1
+emoji>=2.10.1
+python-multipart>=0.0.9
